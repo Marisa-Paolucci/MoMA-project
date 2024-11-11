@@ -1,8 +1,9 @@
 # MoMA-project
-This is a capstone project for the Code:You Data Analytics course. This project will analyze MoMA(Museum of Modern Art) data to explore the gender diversity of their artists, and to uncover whether or not their artist gender diversity has improved over time. 
+This is a capstone project for the Code:You Data Analytics course. This project will analyze MoMA(Museum of Modern Art) data to explore the gender diversity of their artists, and to uncover whether or not their artist gender diversity has improved over time. In addition, to compare MoMA artists' data with prominent art history textbook data. 
 
-**Goal:**
-Determine the percentage of male, female and nonbinary artists represented at MoMA from 1929 to 2024, represented in each department at MoMA, and represented at MoMA after the museum's 2019 renovation and expansion. 
+**Goals:**
+1. Determine the percentage of male, female and nonbinary artists represented at MoMA from 1929 to 2024, represented in each department at MoMA, and represented at MoMA after the museum's 2019 renovation and expansion. 
+2. Compare MoMA artists' data with artists' data from two popular art history textbooks: *Janson's History of Art* and *Gardner's Art Through the Ages*.
 
 **Steps:**
 1. Research overall artist demographics in the U.S., and gender disparities in U.S. art museums.
@@ -29,6 +30,7 @@ Determine the percentage of male, female and nonbinary artists represented at Mo
 3. `src/01_discover.ipynb` is a jupyter notebook using pandas to understand the raw data files.
 4. `src/02_clean.py` uses pandas to clean a dataset.
 5. `src/03_analyze.ipynb` uses pandas to aggregate and plot the data.
+6. `src/artists_and_textbooks.py` uses pandas to combine MoMA artists' data with art history textbook data.
 
 ## Project Layout
 
@@ -43,4 +45,5 @@ At a high level, all data is stored in the `data/` directory and all python code
 | `src/01_discover.ipynb` | Jupyter notebook for data discovery: This notebook shows the thought process for the analysis, it includes research on the project topic, identification of data needed, and identification of cleaning needed. |
 | `src/02_clean.py` | Automates the data cleaning script: This script takes in the raw data files and performs cleaning including removing unnecessary columns, renaming columns, and removing unnecessary rows, etc. |
 | `src/03_analyze.ipynb` | Jupyter notebook for data analysis: Aggregates and plots the data to answer the project questions. |
+| `src/artists_and_textbooks.py` | This is a custom python module that combines the MoMA artists' data with the art history textbook data. 
 
