@@ -11,7 +11,6 @@ Art History Textbook data from [Kaggle](https://www.kaggle.com/datasets/joebeach
 | title | str | title of artwork |
 | artist | str | name of the artist |
 | gender | str | gender of the artist |
-| department | str | assigned department for the artwork |
 | date_acquired | date | format is YYYY-MM-DD |
 
 ## Art History Textbook Data

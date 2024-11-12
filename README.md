@@ -1,8 +1,8 @@
 # MoMA-project
-This is a capstone project for the Code:You Data Analytics course. This project will analyze MoMA(Museum of Modern Art) data to explore the gender diversity of their artists, and to uncover whether or not their artist gender diversity has improved over time. In addition, to compare MoMA artists' data with prominent art history textbook data. 
+This is a capstone project for the Code:You Data Analytics course. This project will analyze MoMA (Museum of Modern Art) data to explore the gender diversity of their artists, and to uncover whether or not their artist gender diversity has improved over time. In addition, to compare MoMA artists' data with prominent art history textbook data. 
 
 **Goals:**
-1. Determine the percentage of male, female and nonbinary artists represented at MoMA from 1929 to 2024, represented in each department at MoMA, and represented at MoMA after the museum's 2019 renovation and expansion. 
+1. Determine the percentage of male, female and nonbinary artists represented at MoMA from 1929 to 2024,and the percentage of each gender represented at MoMA after the museum's 2019 renovation and expansion. 
 2. Compare MoMA artists' data with artists' data from two popular art history textbooks: *Janson's History of Art* and *Gardner's Art Through the Ages*.
 
 **Steps:**
