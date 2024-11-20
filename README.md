@@ -20,17 +20,19 @@ This is a capstone project for the Code:You Data Analytics course. This project 
 1. Clone this repo.
 2. Create a virtual environment and install the packages listed in the `requirements.txt` file.
 3. Open the `src/01_discover.ipynb` file to view the raw data.
-4. Run the `src/02_clean.py` script to clean the raw data.
-5. Run the `src/03_analyze.ipynb` file to view the analysis.
+4. Run the `src/02_clean_moma.ipynb` script to clean the raw MoMA data.
+5. Run the `src/03_clean_textbook.ipynb` script to clean the raw art history textbook data.
+6. Run the `src/04_analyze.ipynb` file to view the analysis.
 
 ## Capstone Project Criteria
 
 1. This README file provides information about the project and how to use the code.
 2. `data/README.md` provides the data dictionary for the data used in the project.
 3. `src/01_discover.ipynb` is a jupyter notebook using pandas to understand the raw data files.
-4. `src/02_clean.py` uses pandas to clean a dataset.
-5. `src/03_analyze.ipynb` uses pandas to aggregate and plot the data.
-6. `src/artists_and_textbooks.py` uses pandas to combine MoMA artists' data with art history textbook data.
+4. `src/02_clean_moma.ipynb` uses pandas to clean the MoMA dataset.
+5. `src/03_clean_textbook.ipynb` uses pandas to clean the art history textbook dataset.
+6. `src/04_analyze.ipynb` uses pandas to aggregate and plot the data.
+7. `src/artists_and_textbooks.py` uses pandas to combine MoMA artists' data with art history textbook data.
 
 ## Project Layout
 
@@ -43,7 +45,8 @@ At a high level, all data is stored in the `data/` directory and all python code
 | `data/clean` | cleaned data files |
 | `data/README.md` | Data dictionary for the raw data used in the project. |
 | `src/01_discover.ipynb` | Jupyter notebook for data discovery: This notebook shows the thought process for the analysis, it includes research on the project topic, identification of data needed, and identification of cleaning needed. |
-| `src/02_clean.py` | Automates the data cleaning script: This script takes in the raw data files and performs cleaning including removing unnecessary columns, renaming columns, and removing unnecessary rows, etc. |
-| `src/03_analyze.ipynb` | Jupyter notebook for data analysis: Aggregates and plots the data to answer the project questions. |
+| `src/02_clean_moma.py` | The MoMA data cleaning script: This script takes in the raw MoMA data file and performs cleaning including removing unnecessary columns, renaming columns, separating multiple artist listings, and removing unnecessary rows, etc. |
+| `src/03_clean_textbook.py` | The Art History Textbook data cleaning script: This script takes in the raw art history textbook data file and performs cleaning including removing unnecessary columns, and removing unnecessary rows, etc. |
+| `src/04_analyze.ipynb` | Jupyter notebook for data analysis: Aggregates and plots the data to answer the project questions. |
 | `src/artists_and_textbooks.py` | This is a custom python module that combines the MoMA artists' data with the art history textbook data. 
 
