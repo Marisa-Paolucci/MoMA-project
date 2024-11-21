@@ -50,8 +50,21 @@ Art History Textbook data from [Kaggle](https://www.kaggle.com/datasets/joebeach
 ## Art History Textbook Raw Data
 | field | type | description |
 | ----- | ----------- | -------------- |
-| artist_name | string | name of the artist |
-| edition_number | 
+| artist_name | object | name of the artist |
+| edition_number | object | edition number for each book |
+| year | int64 | year of the edition's publication |
+| artist_nationality | object | the artist's nationality |
+| artist_nationality_other | object | a second nationality column where "other" is listed for artists with a nationality other than American, British, French, German, or Spanish |
+| artist_gender | object | the artist's gender |
+| artist_race | object | the artist's race |
+| artist_ethnicity | object | the artist's ethnicity |
+| book | object | either Gardner or Janson is listed for the two textbooks |
+| space_ratio_per_page_total | float64 | the space ratio used for each artist per page in the book |
+| artist_unique_id | int64 | unique id for each artist |
+| moma_count_to_year | int64 | the total count of exhibitions ever held by MoMA for each artist at a given year of publication |
+| whitney_count_to_year | int64 | the total count of exhibitions ever held by The Whitney Museum for each artist at a given year of publication |
+| artist_race_nwi | object | lists whether the artist is white or non-white |
+
 
 ## Art History Textbook Clean Data
 
