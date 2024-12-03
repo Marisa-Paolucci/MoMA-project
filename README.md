@@ -2,18 +2,19 @@
 This is a capstone project for the Code:You Data Analytics course. This project will analyze MoMA (Museum of Modern Art) data to explore the gender diversity of their artists, and to uncover whether or not their artist gender diversity has improved over time. In addition, to compare MoMA artists' data with prominent art history textbook data. 
 
 **Goals:**
-1. Determine the percentage of male, female and nonbinary artists represented at MoMA from 1929 to 2024,and the percentage of each gender represented at MoMA after the museum's 2019 renovation and expansion. 
+1. Determine the percentage of male, female, transgender and non-binary artists represented at MoMA from 1929 to 2024, and the percentage of each gender represented at MoMA after the museum's 2019 renovation and expansion. 
 2. Compare MoMA artists' data with artists' data from two popular art history textbooks: *Janson's History of Art* and *Gardner's Art Through the Ages*.
 
 **Steps:**
 1. Research overall artist demographics in the U.S., and gender disparities in U.S. art museums.
 2. Research MoMA's mission statement and goals for their 2019 renovation and expansion. 
-3. Determine data needed to support.
-4. Review available data.
-5. Identify the type of analysis that can be done and list the questions that can be answered.
-6. Clean the data.
-7. Analyze the data and answer the questions.
-8. Visualize the analysis.
+3. Research popular art history textbooks.
+4. Determine data needed to support.
+5. Review available data.
+6. Identify the type of analysis that can be done and list the questions that can be answered.
+7. Clean the data.
+8. Analyze the data and answer the questions.
+9. Visualize the analysis.
 
 ## Getting Started
 
@@ -22,7 +23,7 @@ This is a capstone project for the Code:You Data Analytics course. This project 
 3. Open the `src/01_discover.ipynb` file to view the raw data.
 4. Run the `src/02_clean_moma.ipynb` script to clean the raw MoMA data.
 5. Run the `src/03_clean_textbook.ipynb` script to clean the raw art history textbook data.
-6. Run the `src/04_analyze.ipynb` file to view the analysis.
+6. Run the `src/04_analyze.ipynb` file to view the analysis and visualizations.
 
 ## Capstone Project Criteria
 
