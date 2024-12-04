@@ -20,34 +20,33 @@ This is a capstone project for the Code:You Data Analytics course. This project 
 
 1. Clone this repo.
 2. Create a virtual environment and install the packages listed in the `requirements.txt` file.
-3. Open the `src/01_discover.ipynb` file to view the raw data.
+3. Run the `src/01_discover.ipynb` file to view the raw data.
 4. Run the `src/02_clean_moma.ipynb` script to clean the raw MoMA data.
 5. Run the `src/03_clean_textbook.ipynb` script to clean the raw art history textbook data.
 6. Run the `src/04_analyze.ipynb` file to view the analysis and visualizations.
 
 ## Capstone Project Criteria
 
-1. This README file provides information about the project and how to use the code.
-2. `data/README.md` provides the data dictionary for the data used in the project.
-3. `src/01_discover.ipynb` is a jupyter notebook using pandas to understand the raw data files.
-4. `src/02_clean_moma.ipynb` uses pandas to clean the MoMA dataset.
-5. `src/03_clean_textbook.ipynb` uses pandas to clean the art history textbook dataset.
-6. `src/04_analyze.ipynb` uses pandas to aggregate and plot the data.
-7. `src/artists_and_textbooks.py` uses pandas to combine MoMA artists' data with art history textbook data.
+1. **Loading Data:** per project criteria, I was required to read in two data files. I read in the artworks.csv and art_history.csv files in my `src/01_discover.ipynb` notebook.
+2. **Clean and Combine Data:** per project criteria, I was required to clean data and perform a pandas merge of two data sets, and then calculate new values based on the new data set. My cleaning scripts can be found in the `src/02_clean_moma.ipynb` notebook and the `src/03_clean_textbook.ipynb` notebook, and I join the data sets in my `src/04_analyze.ipynb` notebook. This is also where I calculate unique counts, percentages and a summary based on the new joined data set. 
+3. **Visualize/Present your data:** per project criteria, I was required to make at least 3 matplotlib or seaborn visualizations. In addition, I had the option of creating a Tableau dashboard to display my data. My six matplotlib/seaborn visualizations can be found in my `src/04_analyze.ipynb` notebook, and my Tableau dashboard can be found [here](https://public.tableau.com/views/MoMAProject/MoMAProjectDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+4. **Best practices:** per project criteria, I was required to utilize a virtual environment and include instructions in my README. These instructions are listed above. In addition, I had the option of creating a custom data dictionary. This data dictionary can be found in my `data/README.md` file.
+5. **Interpretation of data:** per project criteria, I was required to annotate my code with markdown cells and code comments. These markdown cells and code comments can be found throughout my project. Note: to create my code I referred to class materials, pluralsight and YouTube videos, official Pandas documentation, stack overflow posts, and ChatGPT. In two instances (in my `src/04_analyze.ipynb`), I used code from ChatGPT. However, I had to make adjustments and changes in the code to make it work. These two instances are noted in my code comments.  
+
 
 ## Project Layout
 
-At a high level, all data is stored in the `data/` directory and all python code is stored in the `src/` directory.
+At a high level, all data is stored in the `data/` directory and all python/pandas code is stored in the `src/` directory.
 
 | File | Description |
 | ---- | ----------- |
-| `README.md` | general information about the project |
-| `data/raw` | raw data files |
-| `data/clean` | cleaned data files |
-| `data/README.md` | Data dictionary for the raw data used in the project. |
+| `README.md` | General information about the project |
+| `data/raw` | Raw data files |
+| `data/clean` | Cleaned data files |
+| `data/README.md` | Data dictionary for all data sets used in the project. |
 | `src/01_discover.ipynb` | Jupyter notebook for data discovery: This notebook shows the thought process for the analysis, it includes research on the project topic, identification of data needed, and identification of cleaning needed. |
-| `src/02_clean_moma.py` | The MoMA data cleaning script: This script takes in the raw MoMA data file and performs cleaning including removing unnecessary columns, renaming columns, separating multiple artist listings, and removing unnecessary rows, etc. |
+| `src/02_clean_moma.ipynb` | The MoMA data cleaning script: This script takes in the raw MoMA data file and performs cleaning, including removing unnecessary columns, renaming columns, separating multiple artist listings, and removing unnecessary rows, etc. |
 | `src/03_clean_textbook.py` | The Art History Textbook data cleaning script: This script takes in the raw art history textbook data file and performs cleaning including removing unnecessary columns, and removing unnecessary rows, etc. |
-| `src/04_analyze.ipynb` | Jupyter notebook for data analysis: Aggregates and plots the data to answer the project questions. |
-| `src/artists_and_textbooks.py` | This is a custom python module that combines the MoMA artists' data with the art history textbook data. 
+| `src/04_analyze.ipynb` | Jupyter notebook for data analysis and visualization: Aggregates and plots the data to answer the project questions. It includes six matplotlib/seaborn visualizations. |
+
 

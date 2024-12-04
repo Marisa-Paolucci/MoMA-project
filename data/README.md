@@ -65,10 +65,19 @@ Art History Textbook data from [Kaggle](https://www.kaggle.com/datasets/joebeach
 | whitney_count_to_year | int64 | the total count of exhibitions ever held by The Whitney Museum for each artist at a given year of publication |
 | artist_race_nwi | object | lists whether the artist is white or non-white |
 
-
 ## Art History Textbook Clean Data
 
 | field | type | description |
 | ----- | ----------- | -------------- |
 | artist_name | string | name of the artist |
 | artist_gender | string | gender of the artist |
+
+## MoMA and Art History Textbook Joined Data
+
+| field | type | description |
+| ----- | ----------- | -------------- |
+| title | string | title of artwork |
+| artist | string | name of the artist (multiple artists listed for some artworks) |
+| date_acquired | datetime64 | acquisition date for the artwork, format is YYYY-MM-DD |
+| gender_list | string | gender of the artist from the MoMA data set |
+| artist_gender | string | gender of the artist from the Art History Textbook data set |
