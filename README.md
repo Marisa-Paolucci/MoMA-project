@@ -1,5 +1,10 @@
 # MoMA-project
-This is a capstone project for the Code:You Data Analytics course. This project will analyze MoMA (Museum of Modern Art) data to explore the gender diversity of their artists, and to uncover whether or not their artist gender diversity has improved over time. In addition, to compare MoMA artists' data with prominent art history textbook data. 
+**This is a capstone project for the Code:You Data Analytics course. This project will analyze MoMA (Museum of Modern Art) data to explore the gender diversity of their artists, and to uncover whether or not their artist gender diversity has improved over time. In addition, to compare MoMA artists' data with prominent art history textbook data.** 
+
+![wu_rose_series_1907_hilma_af_klint](https://github.com/user-attachments/assets/bbd14a13-4c44-4a05-989b-00f2679da2b0) <br />
+*Hilma af Klint (Swedish, 1862-1944)* <br />
+*The Large Figure Paintings, No. 5, Group III, The Key to All Works to Date, The WU/Rose Series, 1907* <br />
+*Exhibited at MoMA in 1989 (not in their permanent collection)* <br />
 
 **Goals:**
 1. Determine the percentage of male, female, transgender and non-binary artists represented at MoMA from 1929 to 2024, and the percentage of each gender represented at MoMA after the museum's 2019 renovation and expansion. 
@@ -33,6 +38,8 @@ This is a capstone project for the Code:You Data Analytics course. This project 
 4. **Best practices:** per project criteria, I was required to utilize a virtual environment and include instructions in my README. These instructions are listed above. In addition, I had the option of creating a custom data dictionary. This data dictionary can be found in my `data/README.md` file.
 5. **Interpretation of data:** per project criteria, I was required to annotate my code with markdown cells and code comments. These markdown cells and code comments can be found throughout my project. Note: to create my code I referred to class materials, Pluralsight and YouTube videos, official Pandas documentation, stack overflow posts, and ChatGPT. In two instances (in my `src/04_analyze.ipynb`), I used code from ChatGPT. However, I had to make adjustments and changes in the code to make it work. These two instances are noted in my code comments.  
 
+![bar_chart_gender_diversity_moma](https://github.com/user-attachments/assets/80cb43ed-0a00-4967-a154-861186343021) <br />
+*This bar chart and other visualizations can be found in the `src/04_analyze.ipynb` file.*
 
 ## Project Layout
 
