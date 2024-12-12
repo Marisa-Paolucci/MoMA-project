@@ -24,7 +24,7 @@
 ## Getting Started
 
 1. Clone this repo.
-2. Create a virtual environment and install the packages listed in the `requirements.txt` file.
+2. Create a virtual environment and install the packages listed in the `requirements.txt` file. Note: Python version 3.12.3 was used to create this project. 
 3. Run the `src/01_discover.ipynb` file to view the raw data.
 4. Run the `src/02_clean_moma.ipynb` script to clean the raw MoMA data.
 5. Run the `src/03_clean_textbook.ipynb` script to clean the raw art history textbook data.
